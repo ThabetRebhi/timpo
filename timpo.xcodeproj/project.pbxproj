@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18C51D8024326F1300AC1321 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C51D7F24326F1300AC1321 /* AppDelegate.swift */; };
+		18C51D8224326F1300AC1321 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C51D8124326F1300AC1321 /* SceneDelegate.swift */; };
+		18C51D8424326F1300AC1321 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C51D8324326F1300AC1321 /* ViewController.swift */; };
+		18C51D8724326F1300AC1321 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C51D8524326F1300AC1321 /* Main.storyboard */; };
+		18C51D8924326F1400AC1321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C51D8824326F1400AC1321 /* Assets.xcassets */; };
+		18C51D8C24326F1400AC1321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C51D8A24326F1400AC1321 /* LaunchScreen.storyboard */; };
+		18C51D9724326F1400AC1321 /* timpoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C51D9624326F1400AC1321 /* timpoTests.swift */; };
+		18C51DA224326F1400AC1321 /* timpoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C51DA124326F1400AC1321 /* timpoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18C51D9324326F1400AC1321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C51D7424326F1300AC1321 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C51D7B24326F1300AC1321;
+			remoteInfo = timpo;
+		};
+		18C51D9E24326F1400AC1321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C51D7424326F1300AC1321 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C51D7B24326F1300AC1321;
+			remoteInfo = timpo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18C51D7C24326F1300AC1321 /* timpo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timpo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C51D7F24326F1300AC1321 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18C51D8124326F1300AC1321 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18C51D8324326F1300AC1321 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18C51D8624326F1300AC1321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18C51D8824326F1400AC1321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18C51D8B24326F1400AC1321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18C51D8D24326F1400AC1321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C51D9224326F1400AC1321 /* timpoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = timpoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C51D9624326F1400AC1321 /* timpoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timpoTests.swift; sourceTree = "<group>"; };
+		18C51D9824326F1400AC1321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C51D9D24326F1400AC1321 /* timpoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = timpoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C51DA124326F1400AC1321 /* timpoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timpoUITests.swift; sourceTree = "<group>"; };
+		18C51DA324326F1400AC1321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18C51D7924326F1300AC1321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C51D8F24326F1400AC1321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C51D9A24326F1400AC1321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18C51D7324326F1300AC1321 = {
+			isa = PBXGroup;
+			children = (
+				18C51D7E24326F1300AC1321 /* timpo */,
+				18C51D9524326F1400AC1321 /* timpoTests */,
+				18C51DA024326F1400AC1321 /* timpoUITests */,
+				18C51D7D24326F1300AC1321 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18C51D7D24326F1300AC1321 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C51D7C24326F1300AC1321 /* timpo.app */,
+				18C51D9224326F1400AC1321 /* timpoTests.xctest */,
+				18C51D9D24326F1400AC1321 /* timpoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C51D7E24326F1300AC1321 /* timpo */ = {
+			isa = PBXGroup;
+			children = (
+				18C51D7F24326F1300AC1321 /* AppDelegate.swift */,
+				18C51D8124326F1300AC1321 /* SceneDelegate.swift */,
+				18C51D8324326F1300AC1321 /* ViewController.swift */,
+				18C51D8524326F1300AC1321 /* Main.storyboard */,
+				18C51D8824326F1400AC1321 /* Assets.xcassets */,
+				18C51D8A24326F1400AC1321 /* LaunchScreen.storyboard */,
+				18C51D8D24326F1400AC1321 /* Info.plist */,
+			);
+			path = timpo;
+			sourceTree = "<group>";
+		};
+		18C51D9524326F1400AC1321 /* timpoTests */ = {
+			isa = PBXGroup;
+			children = (
+				18C51D9624326F1400AC1321 /* timpoTests.swift */,
+				18C51D9824326F1400AC1321 /* Info.plist */,
+			);
+			path = timpoTests;
+			sourceTree = "<group>";
+		};
+		18C51DA024326F1400AC1321 /* timpoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18C51DA124326F1400AC1321 /* timpoUITests.swift */,
+				18C51DA324326F1400AC1321 /* Info.plist */,
+			);
+			path = timpoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C51D7B24326F1300AC1321 /* timpo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C51DA624326F1400AC1321 /* Build configuration list for PBXNativeTarget "timpo" */;
+			buildPhases = (
+				18C51D7824326F1300AC1321 /* Sources */,
+				18C51D7924326F1300AC1321 /* Frameworks */,
+				18C51D7A24326F1300AC1321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = timpo;
+			productName = timpo;
+			productReference = 18C51D7C24326F1300AC1321 /* timpo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18C51D9124326F1400AC1321 /* timpoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C51DA924326F1400AC1321 /* Build configuration list for PBXNativeTarget "timpoTests" */;
+			buildPhases = (
+				18C51D8E24326F1400AC1321 /* Sources */,
+				18C51D8F24326F1400AC1321 /* Frameworks */,
+				18C51D9024326F1400AC1321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C51D9424326F1400AC1321 /* PBXTargetDependency */,
+			);
+			name = timpoTests;
+			productName = timpoTests;
+			productReference = 18C51D9224326F1400AC1321 /* timpoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18C51D9C24326F1400AC1321 /* timpoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C51DAC24326F1400AC1321 /* Build configuration list for PBXNativeTarget "timpoUITests" */;
+			buildPhases = (
+				18C51D9924326F1400AC1321 /* Sources */,
+				18C51D9A24326F1400AC1321 /* Frameworks */,
+				18C51D9B24326F1400AC1321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C51D9F24326F1400AC1321 /* PBXTargetDependency */,
+			);
+			name = timpoUITests;
+			productName = timpoUITests;
+			productReference = 18C51D9D24326F1400AC1321 /* timpoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C51D7424326F1300AC1321 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Thabet;
+				TargetAttributes = {
+					18C51D7B24326F1300AC1321 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					18C51D9124326F1400AC1321 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 18C51D7B24326F1300AC1321;
+					};
+					18C51D9C24326F1400AC1321 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 18C51D7B24326F1300AC1321;
+					};
+				};
+			};
+			buildConfigurationList = 18C51D7724326F1300AC1321 /* Build configuration list for PBXProject "timpo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18C51D7324326F1300AC1321;
+			productRefGroup = 18C51D7D24326F1300AC1321 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C51D7B24326F1300AC1321 /* timpo */,
+				18C51D9124326F1400AC1321 /* timpoTests */,
+				18C51D9C24326F1400AC1321 /* timpoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C51D7A24326F1300AC1321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C51D8C24326F1400AC1321 /* LaunchScreen.storyboard in Resources */,
+				18C51D8924326F1400AC1321 /* Assets.xcassets in Resources */,
+				18C51D8724326F1300AC1321 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C51D9024326F1400AC1321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C51D9B24326F1400AC1321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C51D7824326F1300AC1321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C51D8424326F1300AC1321 /* ViewController.swift in Sources */,
+				18C51D8024326F1300AC1321 /* AppDelegate.swift in Sources */,
+				18C51D8224326F1300AC1321 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C51D8E24326F1400AC1321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C51D9724326F1400AC1321 /* timpoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C51D9924326F1400AC1321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C51DA224326F1400AC1321 /* timpoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18C51D9424326F1400AC1321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C51D7B24326F1300AC1321 /* timpo */;
+			targetProxy = 18C51D9324326F1400AC1321 /* PBXContainerItemProxy */;
+		};
+		18C51D9F24326F1400AC1321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C51D7B24326F1300AC1321 /* timpo */;
+			targetProxy = 18C51D9E24326F1400AC1321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18C51D8524326F1300AC1321 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C51D8624326F1300AC1321 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18C51D8A24326F1400AC1321 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C51D8B24326F1400AC1321 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18C51DA424326F1400AC1321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18C51DA524326F1400AC1321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18C51DA724326F1400AC1321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6M88W5GW8G;
+				INFOPLIST_FILE = timpo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zimbo.timpo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18C51DA824326F1400AC1321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6M88W5GW8G;
+				INFOPLIST_FILE = timpo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zimbo.timpo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18C51DAA24326F1400AC1321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6M88W5GW8G;
+				INFOPLIST_FILE = timpoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zimbo.timpoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/timpo.app/timpo";
+			};
+			name = Debug;
+		};
+		18C51DAB24326F1400AC1321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6M88W5GW8G;
+				INFOPLIST_FILE = timpoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zimbo.timpoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/timpo.app/timpo";
+			};
+			name = Release;
+		};
+		18C51DAD24326F1400AC1321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6M88W5GW8G;
+				INFOPLIST_FILE = timpoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zimbo.timpoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = timpo;
+			};
+			name = Debug;
+		};
+		18C51DAE24326F1400AC1321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6M88W5GW8G;
+				INFOPLIST_FILE = timpoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zimbo.timpoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = timpo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C51D7724326F1300AC1321 /* Build configuration list for PBXProject "timpo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C51DA424326F1400AC1321 /* Debug */,
+				18C51DA524326F1400AC1321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C51DA624326F1400AC1321 /* Build configuration list for PBXNativeTarget "timpo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C51DA724326F1400AC1321 /* Debug */,
+				18C51DA824326F1400AC1321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C51DA924326F1400AC1321 /* Build configuration list for PBXNativeTarget "timpoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C51DAA24326F1400AC1321 /* Debug */,
+				18C51DAB24326F1400AC1321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C51DAC24326F1400AC1321 /* Build configuration list for PBXNativeTarget "timpoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C51DAD24326F1400AC1321 /* Debug */,
+				18C51DAE24326F1400AC1321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18C51D7424326F1300AC1321 /* Project object */;
+}
